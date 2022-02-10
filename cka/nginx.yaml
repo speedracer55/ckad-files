@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    app: web
+  name: q10pod
+spec:
+  containers:
+  - image: nginx
+    name: q10pod
+    ports:
+    - containerPort: 80
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
