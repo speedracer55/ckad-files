@@ -10,9 +10,9 @@ spec:
     metadata:
       labels:
         app: frontend-deployment
-  spec:
-    containers:
-    - name: app
+    spec:
+      containers:
+      - name: app
       image: nginx:latest
       ports:
       - name: http
